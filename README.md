@@ -107,8 +107,8 @@ public:
 ### 🥈 **StatHack Data Science Runner-Up**  
 **🏆 2nd Place National** - IIT Goa (Solo Performance against 500+ participants)
 
-### 🥉 **Smart Waste Management Innovation**
-**🏆 3rd Place National** - PrajnaAI & IEEE at PEC Chandigarh
+### 🥉 **IEEE Hackathon**
+**🏆 3rd Place National** - PEC, Chandigarh
 
 ### 🧮 **International Mathematics Olympiad**
 **🏆 International Rank #143** - Global Mathematical Excellence
@@ -120,7 +120,7 @@ public:
 ## ⚙️ **TECHNICAL EXPERTISE**
 
 <details>
-<summary>🧠 <b>AI/ML RESEARCH STACK</b></summary>
+<summary>🧠 <b>AI/ML STACK</b></summary>
 
 ```yaml
 Deep Learning Frameworks:
@@ -206,7 +206,7 @@ Development Tools:
 
 ---
 
-## 🏅 **ACHIEVEMENTS**
+## 🏅 **GITHUB TROPHIES**
 
 <div align="center">
 
