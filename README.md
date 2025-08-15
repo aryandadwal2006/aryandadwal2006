@@ -3,80 +3,10 @@
 <div align="center">
 
 <!-- Animated AI Neural Network Header -->
-<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .neural-node {
-        fill: #00ff41;
-        animation: pulse 2s infinite;
-      }
-      .neural-connection {
-        stroke: #00ffff;
-        stroke-width: 2;
-        animation: flow 3s infinite linear;
-      }
-      .ai-text {
-        font-family: 'Orbitron', monospace;
-        font-size: 28px;
-        fill: #ff6b35;
-        filter: drop-shadow(0 0 10px #ff6b35);
-      }
-      .subtitle {
-        font-family: 'Courier New', monospace;
-        font-size: 16px;
-        fill: #00ffff;
-        filter: drop-shadow(0 0 5px #00ffff);
-      }
-      @keyframes pulse {
-        0%, 100% { opacity: 0.6; r: 4; }
-        50% { opacity: 1; r: 6; }
-      }
-      @keyframes flow {
-        0% { stroke-dasharray: 0 10; }
-        100% { stroke-dasharray: 10 0; }
-      }
-    </style>
-  </defs>
-  <rect width="100%" height="100%" fill="linear-gradient(45deg, #0a0a0a, #1a1a2e)"/>
-  
-  <!-- Neural Network Visualization -->
-  <!-- Input Layer -->
-  <circle cx="100" cy="40" r="4" class="neural-node"/>
-  <circle cx="100" cy="70" r="4" class="neural-node"/>
-  <circle cx="100" cy="100" r="4" class="neural-node"/>
-  
-  <!-- Hidden Layer 1 -->
-  <circle cx="200" cy="30" r="4" class="neural-node"/>
-  <circle cx="200" cy="60" r="4" class="neural-node"/>
-  <circle cx="200" cy="90" r="4" class="neural-node"/>
-  <circle cx="200" cy="120" r="4" class="neural-node"/>
-  
-  <!-- Hidden Layer 2 -->
-  <circle cx="300" cy="45" r="4" class="neural-node"/>
-  <circle cx="300" cy="75" r="4" class="neural-node"/>
-  <circle cx="300" cy="105" r="4" class="neural-node"/>
-  
-  <!-- Output Layer -->
-  <circle cx="400" cy="60" r="4" class="neural-node"/>
-  <circle cx="400" cy="90" r="4" class="neural-node"/>
-  
-  <!-- Connections -->
-  <line x1="100" y1="40" x2="200" y2="30" class="neural-connection"/>
-  <line x1="100" y1="70" x2="200" y2="60" class="neural-connection"/>
-  <line x1="200" y1="60" x2="300" y2="75" class="neural-connection"/>
-  <line x1="300" y1="75" x2="400" y2="90" class="neural-connection"/>
-  
-  <!-- Main Title -->
-  <text x="400" y="70" text-anchor="middle" class="ai-text">
-    ARYAN DADWAL
-  </text>
-  <text x="400" y="100" text-anchor="middle" class="subtitle">
-    [ AI RESEARCHER AND ENGINEER ]
-  </text>
-  <text x="400" y="125" text-anchor="middle" style="font-size: 12px; fill: #666;">
-    IIT JODHPUR
-  </text>
-</svg>
+<div align="center">
+  <img src="./header.svg" alt="Aryan Dadwal - AI Research Engineer" width="800"/>
+</div>
+
 
 <!-- Dynamic Typing Animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🧠+AI+Research+Engineer;🏥+Medical+AI+Pioneer;📊+Quantitative+Finance+Expert;🚀+Published+Researcher;⚡+Cross-Venue+Arbitrage+Developer;🎯+2x+National+Hackathon+Winner&font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00ff41&center=true&vCenter=true&width=800&height=100)](https://git.io/typing-svg)
