@@ -1,10 +1,7 @@
-- Awesome Work Environment
-<div align="center"><div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif" width="1000">
-</div>
+
 <!-- Animated AI Neural Network Header -->
 <div align="center">
-  <img src="./header.svg" alt="Aryan Dadwal - AI Research Engineer" width="800"/>
+  <img src="./header.svg" alt="Aryan Dadwal - AI Research Engineer" width="1000"/>
 </div>
 
 
