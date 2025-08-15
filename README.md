@@ -6,7 +6,7 @@
 
 
 <!-- Dynamic Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🧠+AI+Research+Engineer;🏥+Medical+AI+Pioneer;📊+Quantitative+Finance+Expert;🚀+Published+Researcher;⚡+Cross-Venue+Arbitrage+Developer;🎯+2x+National+Hackathon+Winner&font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00ff41&center=true&vCenter=true&width=800&height=100)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🧠+AI+Researcher+and+Engineer;📊+Quantitative+Finance;🎯+3x+National+Hackathon+Winner&font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00ff41&center=true&vCenter=true&width=800&height=100)](https://git.io/typing-svg)
 
 </div>
 
