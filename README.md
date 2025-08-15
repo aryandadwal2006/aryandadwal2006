@@ -235,7 +235,7 @@ Development Tools:
 <div align="center">
 
 <a href="https://github.com/aryandadwal2006/adaptive_loss_project">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=adaptive_loss_project&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=adaptive_loss_project&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41&DESCRIPTION=First_Research"/>
 </a>
 
 <a href="https://github.com/aryandadwal2006/cross-venue-arbitrage-feed">
