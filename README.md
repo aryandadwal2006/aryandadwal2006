@@ -206,7 +206,7 @@ Development Tools:
 
 ---
 
-## 🏅 **RESEARCH EXCELLENCE**
+## 🏅 **ACHIEVEMENTS**
 
 <div align="center">
 
