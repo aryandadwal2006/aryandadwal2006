@@ -29,7 +29,7 @@
 
 <div align="center">
 
-### 🏥 **Medical LLM Fine-Tuning Revolution**
+### 🏥 **Medical LLM Fine-Tuning**
 [![HuggingFace Model](https://img.shields.io/badge/🤗_Hugging_Face-Medical_LLM-yellow?style=for-the-badge)](https://huggingface.co/aryandadwal/medical-aryandadwal-llama3.2-1b-765m)
 
 **Breaking**: Fine-tuned Llama 3.2-1B for medical applications achieving state-of-the-art performance in healthcare AI
