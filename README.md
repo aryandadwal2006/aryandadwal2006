@@ -230,7 +230,7 @@ Development Tools:
 
 ---
 
-## 🌟 **FEATURED RESEARCH REPOSITORIES**
+## 🌟 **FEATURED REPOSITORIES**
 
 <div align="center">
 
@@ -239,7 +239,7 @@ Development Tools:
 </a>
 
 <a href="https://github.com/aryandadwal2006/cross-venue-arbitrage-feed">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=cross-venue-arbitrage-feed&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=pedulichain&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
 </a>
 
 <a href="https://github.com/aryandadwal2006/medical_llm_finetuning">
@@ -262,11 +262,11 @@ Development Tools:
 
 ---
 
-## 🌐 **CONNECT WITH THE INNOVATOR**
+## 🌐 **CONNECT WITH ME**
 
 <div align="center">
 
-### 🔗 **RESEARCH NETWORK**
+### 🔗 **LINKS**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan_Dadwal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/aryandadwal/)
 [![Instagram](https://img.shields.io/badge/Instagram-@aryandadwal2006-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000)](https://www.instagram.com/aryandadwal2006)
 [![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-aryandadwal-yellow?style=for-the-badge&logoColor=white&labelColor=000000)](https://huggingface.co/aryandadwal)
@@ -283,18 +283,6 @@ Development Tools:
 - 💹 **Quantitative Finance**: Building high-frequency trading infrastructure  
 - 🤖 **LLM Fine-tuning**: Creating domain-specific language models
 - 📊 **MLOps Innovation**: Scaling AI research through robust deployment pipelines
-
----
-
-## 🔥 **VISITOR ANALYTICS**
-
-<div align="center">
-
-![Visitor Count](https://profile-counter.glitch.me/aryandadwal2006/count.svg)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Let's%20Innovate%20Together!&fontSize=25&fontColor=fff&animation=twinkling"/>
-
-</div>
 
 ---
 
