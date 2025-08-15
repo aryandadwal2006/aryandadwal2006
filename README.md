@@ -71,10 +71,10 @@
     ARYAN DADWAL
   </text>
   <text x="400" y="100" text-anchor="middle" class="subtitle">
-    [ AI RESEARCH ENGINEER & QUANTUM INNOVATOR ]
+    [ AI RESEARCHER AND ENGINEER ]
   </text>
   <text x="400" y="125" text-anchor="middle" style="font-size: 12px; fill: #666;">
-    IIT JODHPUR • TRANSFORMING HEALTHCARE WITH AI
+    IIT JODHPUR
   </text>
 </svg>
 
