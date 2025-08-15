@@ -235,7 +235,7 @@ Development Tools:
 <div align="center">
 
 <a href="https://github.com/aryandadwal2006/adaptive_loss_project">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=adaptive_loss_project&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41&DESCRIPTION=First_Research"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=adaptive_loss_project&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
 </a>
 
 <a href="https://github.com/aryandadwal2006/cross-venue-arbitrage-feed">
@@ -273,16 +273,6 @@ Development Tools:
 [![Email](https://img.shields.io/badge/Email-aryandadwal2006@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:aryandadwal2006@gmail.com)
 
 </div>
-
----
-
-## 🔮 **LATEST RESEARCH MISSIONS**
-
-- 🚀 **Advancing Medical AI**: Developing next-generation healthcare diagnostic systems
-- 🧠 **Meta-Learning Research**: Pioneering adaptive loss functions for deep learning
-- 💹 **Quantitative Finance**: Building high-frequency trading infrastructure  
-- 🤖 **LLM Fine-tuning**: Creating domain-specific language models
-- 📊 **MLOps Innovation**: Scaling AI research through robust deployment pipelines
 
 ---
 
