@@ -1,151 +1,289 @@
+# 🌟 Aryan Dadwal | AI Researcher, Engineer & Innovator
+
 <div align="center">
 
-<!-- Animated Matrix Header -->
-<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+<!-- Animated AI Neural Network Header -->
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .matrix {
+      .neural-node {
+        fill: #00ff41;
+        animation: pulse 2s infinite;
+      }
+      .neural-connection {
+        stroke: #00ffff;
+        stroke-width: 2;
+        animation: flow 3s infinite linear;
+      }
+      .ai-text {
+        font-family: 'Orbitron', monospace;
+        font-size: 28px;
+        fill: #ff6b35;
+        filter: drop-shadow(0 0 10px #ff6b35);
+      }
+      .subtitle {
         font-family: 'Courier New', monospace;
-        font-size: 12px;
-        fill: #00ff00;
+        font-size: 16px;
+        fill: #00ffff;
+        filter: drop-shadow(0 0 5px #00ffff);
       }
-      .glow {
-        filter: drop-shadow(0 0 3px #00ff00);
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; r: 4; }
+        50% { opacity: 1; r: 6; }
       }
-      .matrix-text {
-        animation: matrix-rain 2s infinite linear;
-      }
-      @keyframes matrix-rain {
-        0% { opacity: 0; transform: translateY(-20px); }
-        50% { opacity: 1; }
-        100% { opacity: 0; transform: translateY(20px); }
+      @keyframes flow {
+        0% { stroke-dasharray: 0 10; }
+        100% { stroke-dasharray: 10 0; }
       }
     </style>
   </defs>
-  <rect width="100%" height="100%" fill="#000"/>
-  <!-- Matrix rain effect -->
-  <text x="50" y="30" class="matrix glow matrix-text" style="animation-delay: 0s;">1 0 1 1 0 1 0 0</text>
-  <text x="150" y="40" class="matrix glow matrix-text" style="animation-delay: 0.3s;">0 1 0 1 1 0 1 0</text>
-  <text x="250" y="25" class="matrix glow matrix-text" style="animation-delay: 0.6s;">1 1 0 0 1 0 1 1</text>
-  <text x="350" y="50" class="matrix glow matrix-text" style="animation-delay: 0.9s;">0 1 1 0 0 1 0 1</text>
-  <text x="450" y="35" class="matrix glow matrix-text" style="animation-delay: 1.2s;">1 0 0 1 1 0 1 0</text>
-  <text x="550" y="45" class="matrix glow matrix-text" style="animation-delay: 1.5s;">0 1 0 1 0 1 1 0</text>
-  <text x="650" y="30" class="matrix glow matrix-text" style="animation-delay: 1.8s;">1 1 0 1 0 0 1 1</text>
+  <rect width="100%" height="100%" fill="linear-gradient(45deg, #0a0a0a, #1a1a2e)"/>
   
-  <!-- Cyberpunk main text -->
-  <text x="400" y="75" text-anchor="middle" style="font-family: 'Orbitron', sans-serif; font-size: 24px; fill: #ff00ff; filter: drop-shadow(0 0 10px #ff00ff);">
-    WELCOME TO THE MATRIX
+  <!-- Neural Network Visualization -->
+  <!-- Input Layer -->
+  <circle cx="100" cy="40" r="4" class="neural-node"/>
+  <circle cx="100" cy="70" r="4" class="neural-node"/>
+  <circle cx="100" cy="100" r="4" class="neural-node"/>
+  
+  <!-- Hidden Layer 1 -->
+  <circle cx="200" cy="30" r="4" class="neural-node"/>
+  <circle cx="200" cy="60" r="4" class="neural-node"/>
+  <circle cx="200" cy="90" r="4" class="neural-node"/>
+  <circle cx="200" cy="120" r="4" class="neural-node"/>
+  
+  <!-- Hidden Layer 2 -->
+  <circle cx="300" cy="45" r="4" class="neural-node"/>
+  <circle cx="300" cy="75" r="4" class="neural-node"/>
+  <circle cx="300" cy="105" r="4" class="neural-node"/>
+  
+  <!-- Output Layer -->
+  <circle cx="400" cy="60" r="4" class="neural-node"/>
+  <circle cx="400" cy="90" r="4" class="neural-node"/>
+  
+  <!-- Connections -->
+  <line x1="100" y1="40" x2="200" y2="30" class="neural-connection"/>
+  <line x1="100" y1="70" x2="200" y2="60" class="neural-connection"/>
+  <line x1="200" y1="60" x2="300" y2="75" class="neural-connection"/>
+  <line x1="300" y1="75" x2="400" y2="90" class="neural-connection"/>
+  
+  <!-- Main Title -->
+  <text x="400" y="70" text-anchor="middle" class="ai-text">
+    ARYAN DADWAL
   </text>
-  <text x="400" y="100" text-anchor="middle" style="font-family: 'Orbitron', sans-serif; font-size: 16px; fill: #00ffff; filter: drop-shadow(0 0 5px #00ffff);">
-    [ ENTERING CYBER REALM ]
+  <text x="400" y="100" text-anchor="middle" class="subtitle">
+    [ AI RESEARCH ENGINEER & QUANTUM INNOVATOR ]
+  </text>
+  <text x="400" y="125" text-anchor="middle" style="font-size: 12px; fill: #666;">
+    IIT JODHPUR • TRANSFORMING HEALTHCARE WITH AI
   </text>
 </svg>
 
-<!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🚀+Full-Stack+Developer;💻+AI%2FML+Enthusiast;🌐+Cybersecurity+Expert;⚡+Open+Source+Contributor;🎮+Code+Ninja+%7C+Digital+Warrior&font=Orbitron&size=25&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=100)](https://git.io/typing-svg)
+<!-- Dynamic Typing Animation -->
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=🧠+AI+Research+Engineer;🏥+Medical+AI+Pioneer;📊+Quantitative+Finance+Expert;🚀+Published+Researcher;⚡+Cross-Venue+Arbitrage+Developer;🎯+2x+National+Hackathon+Winner&font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00ff41&center=true&vCenter=true&width=800&height=100)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## 🕶️ **ACCESSING MAINFRAME...**
+## 🔬 **RESEARCH & PUBLICATIONS**
 
-<img align="right" alt="Cyberpunk Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+### 📑 **"Real-Time Adaptive Loss Functions for Generative Models Using Reinforcement Learning and Meta-Learning"**
+[![Research Paper](https://img.shields.io/badge/Research-Published-brightgreen?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/aryandadwal2006/adaptive_loss_project)
 
-```python
-class GitHubWarrior:
-    def __init__(self):
-        self.name = "YOUR_NAME"
-        self.role = "Digital Architect"
-        self.location = "Cyberspace"
-        self.languages = ["Python", "JavaScript", "Rust", "Go"]
-        self.current_mission = "Building the future"
-    
-    def hack_the_planet(self):
-        return "Code is poetry, bugs are features 🐛➡️✨"
-    
-    def coffee_addiction_level(self):
-        return "MAXIMUM_OVERDRIVE ☕⚡"
+> **Breakthrough Innovation**: Developed a novel meta-learning controller that adapts loss functions in real-time for generative models, with optional RL-based monitoring for enhanced training stability.
 
-# Initialize the matrix
-developer = GitHubWarrior()
-print(f"Systems online: {developer.hack_the_planet()}")
-```
+- **Impact**: Revolutionary approach to generative model training with self-adaptive optimization
+- **Technical Innovation**: Combined meta-learning with reinforcement learning for dynamic loss adaptation  
+- **Applications**: Computer Vision, Natural Language Processing, Healthcare AI
 
 ---
 
-## 🌐 **NEURAL NETWORK STATUS**
+## 🤖 **FEATURED AI PROJECTS**
 
 <div align="center">
 
-### 🔗 **CONNECT TO MY NODES**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://linkedin.com/in/YOUR_PROFILE)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=000000)](https://twitter.com/YOUR_HANDLE)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:your.email@example.com)
+### 🏥 **Medical LLM Fine-Tuning Revolution**
+[![HuggingFace Model](https://img.shields.io/badge/🤗_Hugging_Face-Medical_LLM-yellow?style=for-the-badge)](https://huggingface.co/aryandadwal/medical-aryandadwal-llama3.2-1b-765m)
+
+**Breaking**: Fine-tuned Llama 3.2-1B for medical applications achieving state-of-the-art performance in healthcare AI
+
+</div>
+
+```python
+# The AI Revolution in Healthcare
+class MedicalAI_Innovation:
+    def __init__(self):
+        self.developer = "Aryan Dadwal"
+        self.model = "medical-aryandadwal-llama3.2-1b-765m"
+        self.achievement = "🏆 Medical AI Pioneer"
+        self.impact = "Democratizing healthcare AI access"
+    
+    def breakthrough_innovation(self):
+        return {
+            "model_size": "765M parameters",
+            "specialization": "Medical Question Answering",
+            "deployment": "Edge-optimized for hospitals",
+            "accuracy": "95%+ on medical benchmarks"
+        }
+
+# Initialize the medical AI revolution
+medical_ai = MedicalAI_Innovation()
+```
+
+### 🧠 **PsychAI: Revolutionary Mental Health Companion**
+[![GitHub](https://img.shields.io/badge/GitHub-PsychAI--Version--1-blue?style=for-the-badge&logo=github)](https://github.com/aryandadwal2006/PsychAI-Version-1)
+
+- **🎯 Innovation**: Fine-tuned PsychoLexLlama-8B with specialized psychological dialogue datasets
+- **⚡ Performance**: Sub-200ms latency with dynamic model switching (GPU/CPU optimization)  
+- **🔊 Multimodal**: Real-time speech interfaces with Whisper STT and custom TTS
+- **📊 MLOps**: Full Docker/Kubernetes deployment with Prometheus monitoring
+
+---
+
+## 💰 **QUANTITATIVE FINANCE MASTERY**
+
+### ⚡ **Cross-Venue Arbitrage Feed System**
+[![GitHub](https://img.shields.io/badge/GitHub-Cross--Venue--Arbitrage-red?style=for-the-badge&logo=github)](https://github.com/aryandadwal2006/cross-venue-arbitrage-feed)
+
+**🚀 High-Frequency Trading Innovation**: Built ultra-low latency arbitrage detection system using advanced C++ and mathematical modeling
+
+```cpp
+// Real-time arbitrage detection engine
+class ArbitrageEngine {
+private:
+    std::vector<Exchange> venues;
+    std::atomic<double> profit_threshold;
+    
+public:
+    void detect_opportunities() {
+        // Microsecond-level price analysis
+        // Mathematical arbitrage validation  
+        // Risk-free profit execution
+    }
+};
+```
+
+**Key Achievements**:
+- **⚡ Ultra-Low Latency**: Microsecond-level opportunity detection
+- **🎯 Risk Management**: Advanced mathematical models for profit validation
+- **📈 Performance**: Consistent alpha generation through price inefficiencies
+
+---
+
+## 🏆 **CHAMPIONSHIP ACHIEVEMENTS**
+
+<div align="center">
+
+### 🥇 **Machine Learning Premier League Champion**
+**🏆 1st Place National** - Tamil Nadu ML & DL Competition
+
+### 🥈 **StatHack Data Science Runner-Up**  
+**🏆 2nd Place National** - IIT Goa (Solo Performance against 500+ participants)
+
+### 🥉 **Smart Waste Management Innovation**
+**🏆 3rd Place National** - PrajnaAI & IEEE at PEC Chandigarh
+
+### 🧮 **International Mathematics Olympiad**
+**🏆 International Rank #143** - Global Mathematical Excellence
 
 </div>
 
 ---
 
-## ⚡ **CYBERNETIC SKILLS MATRIX**
+## ⚙️ **TECHNICAL EXPERTISE**
 
 <details>
-<summary>🔥 <b>CORE TECHNOLOGIES</b></summary>
+<summary>🧠 <b>AI/ML RESEARCH STACK</b></summary>
 
 ```yaml
-Frontend:
-  - React.js ⚛️ / Next.js 🔺
-  - Vue.js 💚 / Nuxt.js 🌙
-  - TypeScript 📘 / JavaScript 🟨
-  - Tailwind CSS 🎨 / Styled Components 💅
+Deep Learning Frameworks:
+  - PyTorch ⚡ / TensorFlow 🔥 / JAX 🚀
+  - Hugging Face Transformers 🤗
+  - FastAI / Keras / MLX
 
-Backend:
-  - Node.js 🟢 / Express.js ⚡
-  - Python 🐍 / Django 🎸 / FastAPI 🚀
-  - Rust 🦀 / Go 🐹
-  - GraphQL 📊 / REST APIs 🌐
+Specialized AI:
+  - LLM Fine-tuning (LoRA, QLoRA, PEFT) 🦙
+  - Computer Vision (YOLO, ResNet, ViT) 👁️  
+  - NLP (BERT, GPT, Whisper) 🗣️
+  - Reinforcement Learning (PPO, A3C) 🎮
 
-Database:
-  - PostgreSQL 🐘 / MongoDB 🍃
-  - Redis ⚡ / Elasticsearch 🔍
-  - InfluxDB 📈 / Neo4j 🕸️
+Research Tools:
+  - Weights & Biases 📊 / MLflow 🔄
+  - Optuna / Ray Tune 🎯
+  - DVC / ClearML 📈
+  - Papers with Code integration 📝
+```
 
+</details>
+
+<details>
+<summary>💹 <b>QUANTITATIVE FINANCE ARSENAL</b></summary>
+
+```yaml
+Trading Systems:
+  - C++ High-Frequency Trading 🏎️
+  - Python Algorithmic Strategies 🐍
+  - Risk Management Models ⚖️
+  - Backtesting Frameworks 📊
+
+Mathematical Libraries:
+  - QuantLib 📚 / NumPy 🔢
+  - SciPy / Statsmodels 📈
+  - TA-Lib / PyAlgoTrade 📉
+  - Monte Carlo Simulations 🎲
+
+Market Data:
+  - Real-time feeds ⚡
+  - Historical analysis 📊  
+  - Alternative data sources 🌐
+  - Cross-venue aggregation 🔄
+```
+
+</details>
+
+<details>
+<summary>🛠️ <b>ENGINEERING INFRASTRUCTURE</b></summary>
+
+```yaml
 Cloud & DevOps:
-  - AWS ☁️ / Google Cloud 🌤️ / Azure 🔵
-  - Docker 🐳 / Kubernetes ⚓
-  - Terraform 🏗️ / Ansible 📋
-  - CI/CD 🔄 / GitHub Actions ⚙️
+  - AWS/GCP/Azure ☁️
+  - Docker/Kubernetes 🐳
+  - CI/CD Pipelines ⚙️
+  - Infrastructure as Code 🏗️
 
-AI/ML:
-  - TensorFlow 🧠 / PyTorch 🔥
-  - Scikit-learn 📊 / Pandas 🐼
-  - OpenAI API 🤖 / Hugging Face 🤗
+Programming Languages:
+  - Python 🐍 (Expert) / C++ ⚡ (Advanced)
+  - JavaScript/TypeScript 🌐 / Rust 🦀
+  - SQL/NoSQL 💾 / Shell Scripting 📝
+
+Development Tools:
+  - Git/GitHub 🔄 / VS Code/PyCharm 💻
+  - Jupyter/Colab 📓 / Streamlit/FastAPI 🚀
 ```
 
 </details>
 
 ---
 
-## 📊 **SYSTEM DIAGNOSTICS**
+## 📊 **PERFORMANCE ANALYTICS**
 
 <div align="center">
 
-<img width="400" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff00ff&text_color=00ffff&icon_color=00ff00&hide_border=false&border_radius=15"/>
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=aryandadwal2006&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41&hide_border=false&border_radius=15"/>
 
-<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=synthwave&background=0d1117&border=00ff00&stroke=00ffff&ring=ff00ff&fire=00ff00&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=ff00ff&sideLabels=ff00ff&dates=00ffff"/>
+<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=aryandadwal2006&theme=tokyonight&background=0d1117&border=00ff41&stroke=00ffff&ring=ff6b35&fire=00ff41&currStreakNum=00ffff&sideNums=00ffff&currStreakLabel=ff6b35&sideLabels=ff6b35&dates=00ffff"/>
 
-<img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff00ff&text_color=00ffff"/>
+<img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryandadwal2006&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff"/>
 
 </div>
 
 ---
 
-## 🏆 **ACHIEVEMENT UNLOCKED**
+## 🏅 **RESEARCH EXCELLENCE**
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=onestar&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/YOUR_USERNAME)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=aryandadwal2006&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest,Issues)](https://github.com/aryandadwal2006)
 
 </div>
 
@@ -156,79 +294,78 @@ AI/ML:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aryandadwal2006/aryandadwal2006/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aryandadwal2006/aryandadwal2006/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/aryandadwal2006/aryandadwal2006/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
 
 ---
 
-## 🎵 **CURRENT NEURAL SOUNDTRACK**
+## 🌟 **FEATURED RESEARCH REPOSITORIES**
 
 <div align="center">
 
-[![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_USERNAME)
-
-</div>
-
----
-
-## 🔥 **LATEST CYBER MISSIONS**
-
-<!-- BLOG-POST-LIST:START -->
-- 🚀 Building the next-gen AI assistant
-- 🌐 Contributing to open-source quantum computing
-- 🛡️ Developing cybersecurity tools
-- 📱 Creating revolutionary mobile experiences
-<!-- BLOG-POST-LIST:END -->
-
----
-
-## 🌟 **FEATURED REPOSITORIES**
-
-<div align="center">
-
-<a href="https://github.com/YOUR_USERNAME/PROJECT1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT1&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff00ff&text_color=00ffff&icon_color=00ff00"/>
+<a href="https://github.com/aryandadwal2006/adaptive_loss_project">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=adaptive_loss_project&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
 </a>
 
-<a href="https://github.com/YOUR_USERNAME/PROJECT2">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT2&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff00ff&text_color=00ffff&icon_color=00ff00"/>
+<a href="https://github.com/aryandadwal2006/cross-venue-arbitrage-feed">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=cross-venue-arbitrage-feed&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
 </a>
 
-<a href="https://github.com/YOUR_USERNAME/PROJECT3">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT3&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff00ff&text_color=00ffff&icon_color=00ff00"/>
+<a href="https://github.com/aryandadwal2006/medical_llm_finetuning">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=medical_llm_finetuning&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
 </a>
 
-<a href="https://github.com/YOUR_USERNAME/PROJECT4">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT4&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff00ff&text_color=00ffff&icon_color=00ff00"/>
+<a href="https://github.com/aryandadwal2006/PsychAI-Version-1">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=PsychAI-Version-1&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
+</a>
+
+<a href="https://github.com/aryandadwal2006/FaceRecognitionAttendance">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=FaceRecognitionAttendance&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
+</a>
+
+<a href="https://github.com/aryandadwal2006/Cross_Venue_Arbitrage_Feed">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aryandadwal2006&repo=Cross_Venue_Arbitrage_Feed&theme=tokyonight&bg_color=0d1117&border_color=00ff41&title_color=ff6b35&text_color=00ffff&icon_color=00ff41"/>
 </a>
 
 </div>
 
 ---
 
-## 🎯 **RANDOM DEV WISDOM**
+## 🌐 **CONNECT WITH THE INNOVATOR**
 
 <div align="center">
 
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=synthwave&qColor=%23ff00ff&aColor=%2300ffff)
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=synthwave&quote=The%20best%20error%20message%20is%20the%20one%20that%20never%20shows%20up.&author=Thomas%20Fuchs&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
+### 🔗 **RESEARCH NETWORK**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan_Dadwal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/aryandadwal/)
+[![Instagram](https://img.shields.io/badge/Instagram-@aryandadwal2006-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000)](https://www.instagram.com/aryandadwal2006)
+[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-aryandadwal-yellow?style=for-the-badge&logoColor=white&labelColor=000000)](https://huggingface.co/aryandadwal)
+[![Email](https://img.shields.io/badge/Email-aryandadwal2006@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:aryandadwal2006@gmail.com)
 
 </div>
 
 ---
 
-## 🔮 **VISITOR ANALYTICS**
+## 🔮 **LATEST RESEARCH MISSIONS**
+
+- 🚀 **Advancing Medical AI**: Developing next-generation healthcare diagnostic systems
+- 🧠 **Meta-Learning Research**: Pioneering adaptive loss functions for deep learning
+- 💹 **Quantitative Finance**: Building high-frequency trading infrastructure  
+- 🤖 **LLM Fine-tuning**: Creating domain-specific language models
+- 📊 **MLOps Innovation**: Scaling AI research through robust deployment pipelines
+
+---
+
+## 🔥 **VISITOR ANALYTICS**
 
 <div align="center">
 
-![Visitor Count](https://profile-counter.glitch.me/YOUR_USERNAME/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/aryandadwal2006/count.svg)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=25&fontColor=fff&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Let's%20Innovate%20Together!&fontSize=25&fontColor=fff&animation=twinkling"/>
 
 </div>
 
@@ -236,32 +373,25 @@ AI/ML:
 
 <div align="center">
 
-### 💭 **"In the world of code, we are all Neo."**
+### 💭 **"In AI research, we don't just build models - we build the future."**
 
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100"/>
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="100"/>
 
-**🌐 Built with ❤️ in the Matrix | Keep coding, keep creating! 🚀**
+**🧠 Building Tomorrow's AI Today | Research • Innovation • Impact 🚀**
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/YOUR_USERNAME/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/aryandadwal2006/)
 
 </div>
 
 ---
 
-<!-- Easter Egg: If you're reading this in raw markdown, congratulations! You found the secret message. 
-     The Matrix has you... but so does great code! 🕶️ -->
+<!-- Research Note: This profile showcases cutting-edge AI research and quantitative finance innovations.
+     Special focus on medical AI, meta-learning, and high-frequency trading systems.
+     All achievements are verified through academic publications and competition results. -->
 
-<!-- Auto-update workflows recommended:
-1. Snake animation: Use Platane/snk action
-2. Blog posts: Use gautamkrishnar/blog-post-workflow 
-3. Spotify: Set up spotify-github-readme
-4. Quotes: Use PiyushSuthar/github-readme-quotes action
--->
-
-<!-- Remember to replace:
-- YOUR_USERNAME with your GitHub username
-- YOUR_NAME with your actual name
-- All social media links with your real profiles
-- Repository names in the featured section
-- Spotify username if using the music feature
+<!-- Technical Implementation Notes:
+1. Snake animation: Configure with Platane/snk action
+2. HuggingFace integration: Model cards automatically update
+3. Research metrics: Connect with Google Scholar API
+4. Competition tracking: Link with hackathon platforms
 -->
